@@ -7,10 +7,36 @@ ul {
     background-color: black;
     color: yellow;
 }
+.header_nav, .status-bar_nav {
+    padding: 10px;
+}
 
-.header_nav , .status-bar_nav {
+.header_nav , .status-bar_nav  {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.filtered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
+}
+
+.share-section_filters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+.filtered_cards {
+    background-color: turquoise;
+    width: 25%;
+    height:190px;
+    padding: 20px
+    
+    
 }
