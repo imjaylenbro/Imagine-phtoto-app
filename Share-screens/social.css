@@ -22,10 +22,10 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    height: 250px;
+    height: 270px;
 }
 
-.share-section_filters{
+.share-section_filters {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,8 +35,7 @@ ul {
 .filtered_cards {
     background-color: turquoise;
     width: 25%;
-    height:190px;
+    height:170px;
     padding: 20px
-    
     
 }
