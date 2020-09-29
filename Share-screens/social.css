@@ -1,0 +1,16 @@
+body ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style-type: none;
+    background-color: black;
+    color: yellow;
+}
+
+.header_nav , .status-bar_nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
