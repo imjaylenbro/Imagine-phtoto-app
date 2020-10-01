@@ -22,7 +22,6 @@ img {
   top: 0;
   left: 0;
   background: linear-gradient(yellow, transparent);
-
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -81,6 +80,10 @@ h4 {
     "image-7 image-8 image-9";
 }
 
+.gallery-images {
+  clip-path: inset(10px, 20px, 30px, 40px);
+}
+
 .image-1 {
   grid-area: image-1;
   /* width: 100%;
@@ -104,6 +107,27 @@ h4 {
   /* width: 100%;
   height: auto; */
 }
+
+.image-5 {
+  grid-area: image-5;
+}
+
+.image-6 {
+  grid-area: image-6;
+}
+
+.image-7 {
+  grid-area: image-7;
+}
+
+.image-8 {
+  grid-area: image-8;
+}
+
+.image-9 {
+  grid-area: image-9;
+}
+
 @media (max-height: 450px) {
   .sidebar {
     padding-top: 15px;
