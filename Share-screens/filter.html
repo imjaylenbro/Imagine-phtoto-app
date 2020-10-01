@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./filter.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <title>Filter screen</title>
+  </head>
+  <body>
+    <div class="filter-screen-container">
+      <div class="hero-image">
+        <img src="./images/logo.jpeg" alt="logo"/>
+      </div>
+      <div class="filter-image filter-image-container">
+        <img src="" alt="">
+      </div>
+      <div class="editor-container">
+        <div class="image">   
+            <input type="file" id="load" />
+        </div>
+       <div class="filters">
+            <!-- <button id="men-protest-filter"></button>
+            <button id="man-blackwhite-filter"></button>
+            <button id="girl-filter"></button> -->
+        <p>
+            <label for="brightness">Brightness</label>
+            <input id="brightness" name="brightness" type="range" min=-100 max=100 value=0>
+        </p>
+        <p>
+            <label for="vibrance">Vibrance</label>
+            <input id="vibrance" name="vibrance" type="range" min=-100 max=100 value=0>
+        </p>
+        <p>
+            <label for="hue">Hue</label>
+            <input id="hue" name="hue" type="range" min=-100 max=100 value=0>
+        </p>
+        <button id="vintage" class="filter">Vintage</button>
+        <button id="lomo" class="filter">Lomo</button>
+        <button id="clarity" class="filter">Clarity</button>
+        <button id="orangePeel" class="filter">Orange Peel</button>
+     </div>
+      <nav class="nav-container">
+        <button id="back" href="">Back</button>
+        <button id="save">Save</button>
+        <button id="share">Share</button>
+        <button id="delete">Delete</button>
+      </nav>
+    </div>
+  </body>
+</html>
+<!-- Saved code to misc2 -->
