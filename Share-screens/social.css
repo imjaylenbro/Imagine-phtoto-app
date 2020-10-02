@@ -1,6 +1,7 @@
 body ul{
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 ul {
     list-style-type: none;
