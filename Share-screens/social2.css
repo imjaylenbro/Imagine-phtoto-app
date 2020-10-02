@@ -1,17 +1,16 @@
-body {
-    background-color: ;
-}
 .social-media {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding:1.5em;
-    height: 430px;
-background-color:blanchedalmond ;}
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.5em;
+  height: 430px;
+  background-color: rgb(12, 12, 11);
+}
 .share-section_card {
-    height: 140px;
-    width: 40%;
-margin: 2px;    
-background-color: turquoise;
+  height: 140px;
+  width: 40%;
+  padding: 20px;
+  position: relative;
+  left: 80px;
 }
