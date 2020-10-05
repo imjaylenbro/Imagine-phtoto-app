@@ -81,7 +81,9 @@ h4 {
 }
 
 .gallery-images {
-  clip-path: inset(10px, 20px, 30px, 40px);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .image-1 {
