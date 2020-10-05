@@ -1,9 +1,13 @@
 import React from "react";
-
 import "./App.css";
+import Gallery from "../src/gallery/Gallery";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Gallery />
+    </div>
+  );
 }
 
 export default App;
