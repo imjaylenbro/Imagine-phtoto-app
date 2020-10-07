@@ -1,14 +1,7 @@
-import React, { Component } from "react";
-import Photos from "./Photos";
+import React from "react";
 
-class Gallery extends Component {
-  render() {
-    return (
-      <div className="wrapper">
-        <Photos />
-      </div>
-    );
-  }
-}
+const Gallery = () => {
+  return <div></div>;
+};
 
 export default Gallery;
