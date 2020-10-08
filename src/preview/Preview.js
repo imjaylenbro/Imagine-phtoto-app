@@ -1,15 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import girl1 from "./Assets/girl1.jpg";
 import girl2 from "./Assets/girl2.png";
 import man1 from "./Assets/bruce.jpg";
-import './preview.css';
-
-
-
-
-
-
-
+import "./preview.css";
 class Preview extends Component {
   state = {
     index: 0,
@@ -40,21 +33,17 @@ class Preview extends Component {
   render() {
     return (
       <div>
-        <img
-        src={this.state.picList[this.state.index]}/> 
-
+        <img src={this.state.picList[this.state.index]} />
         {""}
-
         <br />
-        
-        <button style={{ fontSize: "18px" }} onClick={this.onClickPrevious} >
+        <button style={{ fontSize: "18px" }} onClick={this.onClickPrevious}>
           {""}
           Previous{""}
         </button>
         <button
           style={{ "margin-left": "5px", fontSize: "18px" }}
           onClick={this.onClickNext}
-          >
+        >
           {""}
           Next{""}
         </button>
