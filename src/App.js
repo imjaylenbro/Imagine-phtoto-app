@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <Gallery />
-     <Filter></Filter>
+      <Filter></Filter>
     </div>
-
+  );
+}
 export default App;
