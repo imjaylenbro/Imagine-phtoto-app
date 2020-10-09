@@ -6,9 +6,9 @@ import Preview from "./preview/Preview";
 function App() {
   return (
     <div className="App">
+      <Preview />
       <Gallery />
       <Filter />
-      <Preview />
     </div>
   );
 }
