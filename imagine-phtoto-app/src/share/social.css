@@ -6,7 +6,7 @@
 .nav {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   min-height: 10vh;
   background-color: #FAD200;
   color: #000000

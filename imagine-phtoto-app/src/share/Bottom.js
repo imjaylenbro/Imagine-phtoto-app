@@ -4,13 +4,14 @@ import "./social.css";
 function Bottom() {
   return (
     <nav className="bottomNav">
-      <div className="navLinks">
-        <a href="#Save" >Save</a>
-        <a href="Share">Share</a>
-        <a href="Delete"> Delete</a>
-       
-      </div>
+        <ul  className="navLinks">
+            <li>Save</li>
+            <li>Share</li>
+            <li>Delete</li>
+        </ul>
     </nav>
+
+   
   );
 }
 
