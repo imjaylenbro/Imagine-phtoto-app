@@ -9,6 +9,8 @@ import image7 from "./imgs/pexels-ralph-rabago-3214734.jpg";
 import image8 from "./imgs/pexels-thiago-miranda-1230349.jpg";
 import image9 from "./imgs/pexels-tim-mossholder-1080884.jpg";
 import "../gallery/newstyles.css";
+// import Button from "../mainStyles/AppStyles";
+import { render } from "@testing-library/react";
 
 const images = [
   {
@@ -73,4 +75,5 @@ function Gallery() {
   );
 }
 
+// render(<Button />);
 export default Gallery;
